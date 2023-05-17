@@ -1,0 +1,20 @@
+{
+  "name": "vue3leaflet-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootswatch": "^5.2.3",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.8.4",
+    "leaflet": "^1.9.3",
+    "vite": "^4.1.4"
+  }
+}
