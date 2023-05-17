@@ -144,7 +144,7 @@ import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import { LMap, LTileLayer, LMarker, LIcon, LTooltip } from "@vue-leaflet/vue-leaflet";
 const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT;
-console.log(import.meta.env.VITE_API_ENDPOINT);
+console.log("API_ENDPOINT:" + import.meta.env.VITE_API_ENDPOINT);
 
 export default {
   components: {
