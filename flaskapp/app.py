@@ -42,7 +42,7 @@ db2info['DBNAME']= os.environ.get("DBNAME");
 db2info['USERID']= os.environ.get("USERID");
 db2info['PASSWD']= quote_plus(os.environ.get("PASSWD"));
 db2info['HOSTNAME']= os.environ.get("HOSTNAME");
-db2info['PORT']= str(os.environ.get("PORT"));
+db2info['PORT']= str(os.environ.get("DBPORT"));
 db2info['TABLENAME']= str(os.environ.get("TABLENAME"));
 
 # SQLAlchemyのエンジンを作成
