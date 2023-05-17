@@ -2,7 +2,7 @@
   <div class="container">
     <div class="m-2"></div>
     <h1>
-      Db2 地理空間デモ
+      <img src="/icon/favicon.png" width="50"  alt="site image"> Db2 地理空間デモ
     </h1>
     <div class="m-2"></div>
     <div class="row">
@@ -91,7 +91,7 @@
 
     <div class="row mt-3">
       <div class="col">
-        <div style="height:400px;">
+        <div style="height:600px;">
           <l-map ref="map" :zoom="zoom" :use-global-leaflet="false" :center="center" @click="moveMarker">
             <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base"
               name="OpenStreetMap"></l-tile-layer>
