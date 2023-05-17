@@ -120,8 +120,9 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-/flaskapp/.env
+flaskapp/.env
 .env
+!frontend/.env
 .venv
 env/
 venv/
